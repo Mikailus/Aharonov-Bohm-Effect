@@ -21,15 +21,15 @@ User needs to have matplotlib, numpy and scipy libraries installed. If is also i
 ## 3. Warning
 Because of lot of calculations made during executing scripts, there is used parallel computing, and it is recommended to start with relatively small values (about 50-100) of number of divisions of x axis (nx) and number of divisions of y axis (ny) which are set in python scripts. The higher nx and ny, the more points have to be computed and the more time it takes!
 ## 4. Script parameters
-alfa - parameter related to magnetic field
-k - parameter related to energy of a particle
-suma - number of elements to summarize for computing density or current
-xmin - starting x axis value
-xmax - finishing x axis value
-nx - number of divisions of x axis
-ymin - starting y axis value
-ymax - finishing y axis value
-ny - number of divisions of y axis
+* alfa - parameter related to magnetic field
+* k - parameter related to energy of a particle
+* suma - number of elements to summarize for computing density or current
+* xmin - starting x axis value
+* xmax - finishing x axis value
+* nx - number of divisions of x axis
+* ymin - starting y axis value
+* ymax - finishing y axis value
+* ny - number of divisions of y axis
 ## 5. Link to Aharonov-Bohm paper
 Paper can be downloaded from [here](https://journals.aps.org/pr/abstract/10.1103/PhysRev.115.485).
 ## 6. Authors
